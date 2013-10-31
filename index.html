@@ -1,3 +1,14 @@
+<!--
+File Name: index.html
+
+Author's Name: Sukhdeep Singh
+
+Web Site Name: My Portfolio
+
+File Description: This file contains all the pages of my portfolio site targeted specifically
+for mobile platform. Whenever the user opens my desktop portfolio site on
+mobile device, It automatically redirects to this mobile specific site.
+-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,52 +16,73 @@
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
 		<title>My Portfolio</title>
+
+		<!-- Font Family -->
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+
 		<!-- Extra Codiqa features -->
 		<link rel="stylesheet" href="css/codiqa.ext.css">
+
+		<!--themeroller css-->
 		<link rel="stylesheet" href="themes/myPortfolio.css" />
 
-		<!-- fotorama.css & fotorama.js. -->
+		<!-- fotorama.css-->
 		<link  href="http://fotorama.s3.amazonaws.com/4.4.6/fotorama.css" rel="stylesheet">
 
+		<link href="http://view.jquerymobile.com/1.3.2/dist/demos/_assets/css/jqm-demos.css" rel="stylesheet">
 		<!-- jQuery and jQuery Mobile -->
 		<script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
 		<script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+		<!-- fotorama js-->
 		<script src="http://fotorama.s3.amazonaws.com/4.4.6/fotorama.js"></script>
+
 		<!-- Extra Codiqa features -->
 		<script src="js/codiqa.ext.js"></script>
 
 	</head>
+
 	<body>
-		<!-- Home Page-->
-		<div data-role="page" id="home" data-theme="b">
+
+		<!---------------Home Page----------------->
+		<div data-role="page" id="home" data-theme="b" >
+			<!------------Header at Top of the page---------------->
 			<div data-role="header" data-position="inline" data-theme="b">
 				<h1>My Portfolio</h1>
+				<a href="#nav-panel" data-icon="bars">Menu</a>
 			</div>
+			<!-------------Content of the page-------------------->
 			<div data-role="content" data-theme="b">
-				<div id="logo">
+				<!----Page Logo----->
+				<div id="logo" data-position="inline">
 					<img src="img/logo.png" alt="image" style = " width=237px; height=60px;">
 				</div>
+				<!---------------Nav Bar------------------>
 				<div data-role="navbar" data-iconpos="top" data-theme="b" >
 					<ul>
 						<li>
 							<a href="#home" data-transition="slidefade" data-theme="b" data-icon="home">Home</a>
 						</li>
 						<li>
-							<a href="#about" data-transition="slidefade" data-theme="b" data-icon="info">About Me</a>
+							<a href="#aboutMe" data-transition="slidefade" data-theme="b" data-icon="info">About Me</a>
 						</li>
 						<li>
 							<a href="#contact" data-transition="slidefade" data-theme="b" data-icon="bars">Contact Me</a>
 						</li>
 					</ul>
 				</div>
+
+				<!-----Project & Service Button------->
 				<div id="navbuttons">
 					<a id="projectsButton" href="#projects" data-position="inline" data-transition="slidefade"><img src="img/projects.png" alt="image"></a>
 					<a id="serviceButton" href="#services" data-position="inline" data-transition="slidefade"><img src="img/services.png" alt="image"></a>
 				</div>
+
+				<!-------------Featured Work Slider----------------->
 				<h1>Featured Work</h1>
 				<div class="fotorama">
 					<img src="img/Tictactoe.jpg">
@@ -58,20 +90,48 @@
 					<img src="img/jchat.jpg">
 					<img src="img/smartphones.jpg">
 				</div>
-			</div>
+				
+				<!------Full Site Button-------->
 			<a href="http://webdesign4.georgianc.on.ca/~200245935/advweb/portfolio/index.php" target="_blank" data-role="button" data-position="inline" data-transition="slidefade">Full Site</a>
+			</div>
+			<div data-role="panel" data-position-fixed="true" data-theme="f" id="nav-panel">
+				<ul data-role="listview" data-theme="f" class="nav-search">
+
+					<li>
+						<a href="#projects" data-transition="slidefade">My Projects</a>
+					</li>
+					<li>
+						<a href="#services" data-transition="slidefade">Services</a>
+					</li>
+					<li>
+						<a href="#aboutMe" data-transition="slidefade">About Me</a>
+					</li>
+					<li>
+						<a href="#contact" data-transition="slidefade">Contact Me</a>
+					</li>
+					<li>
+						<a href="http://webdesign4.georgianc.on.ca/~200245935/advweb/portfolio/index.php" target="_blank">Full Site</a>
+					</li>
+
+				</ul>
+				
+			</div>
+
+			<!-----------Footer-------------->
 			<div data-theme="b" data-role="footer" data-position="fixed">
 				<h3> ©2013 Sukhdeep Singh </h3>
 			</div>
 
 		</div><!--End of Home Page-->
 
-		<!--About Me Page-->
-		<div data-role="page" id="about" data-theme="a">
+		<!--------------About Me Page----------------->
+		<div data-role="page" id="aboutMe" data-theme="a">
+
 			<div data-role="header" data-position="inline" data-theme="a">
 				<a href="#home" data-role="button" data-direction="reverse" data-transition="slidefade" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
 				<h1>About Me</h1>
 			</div>
+
 			<div data-role="content" data-theme="a">
 
 				<div style="width: 250px; height: 250px; position: relative;">
@@ -88,15 +148,15 @@
 
 				<ul data-role="listview">
 					<li>
-						<a href="#profHighlights" data-rel="dialog"><h2>Professional Highlights</h2></a>
+						<a href="#profHighlights" data-rel="dialog" ><h2>Professional Highlights</h2></a>
 					</li>
 
 					<li>
-						<a href="#education" data-rel="dialog"><h2>Education</h2></a>
+						<a href="#education" data-rel="dialog" ><h2>Education</h2></a>
 					</li>
 
 					<li>
-						<a href="#background" data-rel="dialog"><h2>Background</h2></a>
+						<a href="#background" data-rel="dialog" ><h2>Background</h2></a>
 					</li>
 				</ul>
 
@@ -107,8 +167,8 @@
 		</div><!--End of About Me Page-->
 
 		<!--Professional Dialog page-->
-		<div data-role="page" id="profHighlights">
-			<div data-role="header" data-position="inline">
+		<div data-role="page" id="profHighlights" data-close-btn="none">
+			<div data-role="header" >
 				<h1>Professional Highlights</h1>
 			</div>
 			<ul>
@@ -153,7 +213,8 @@
 					</p>
 				</li>
 			</ul>
-		</div>
+			<a href="#home" data-role="button" data-rel="back"  data-inline="true">Close</a>
+		</div><!--End of Professional Highlights dialog page-->
 
 		<!--Education Dialog page-->
 		<div data-role="page" id="education" >
@@ -196,7 +257,7 @@
 					</p>
 				</li>
 			</ul>
-		</div>
+		</div><!--End of Education Dialog page-->
 
 		<!--Background dialog page-->
 		<div data-role="page" id="background" >
@@ -212,22 +273,23 @@
 					</p>
 				</li>
 			</ul>
-		</div>
+		</div><!--End of Background diaog page-->
 
-		<!--Contact Me Page-->
+		<!-------------Contact Me Page--------------->
 		<div data-role="page" id="contact" data-theme="c">
 			<div data-role="header" data-position="inline" data-theme="c">
 				<a href="#home" data-role="button" data-direction="reverse" data-transition="slidefade" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
 				<h1>Contact Me</h1>
 			</div>
 			<div data-role="content" data-theme="c">
+				<h2>Contact Info: </h2>
 				<h3><em>Phone:</em> +1 705-770-5820 </h3>
 				<h3><em>Email:</em><a href="mailto:sukhdeepsaini12@gmail.com"> sukhdeepsaini12@gmail.com</a></h3>
 				<h3><em>Address:</em> 533,Grove St,East Barrie,ON,Canada. </h3>
 
-				<!-- Keep Connected Panel-->
+				<!----------- Keep Connected Panel---------------->
 				<div id="connect_panel">
-					<h3>Keep Connected...</h3>
+					<h2>Keep Connected...</h2>
 					<a href="https://www.facebook.com/Sukh9212" target="_blank"><img src="icons/facebook.png"></a>
 					<a class="connect_icons" href="https://twitter.com/Sukh9212" target="_blank"><img src="icons/twitter.png"></a>
 					<a class="connect_icons" href="http://ca.linkedin.com/pub/sukhdeep-singh/74/309/574/" target="_blank"><img src="icons/linkedin.png"></a>
@@ -240,12 +302,14 @@
 			</div>
 		</div><!--End of Contact Me Page-->
 
-		<!--Projects Page-->
+		<!-------------Projects Page--------------->
 		<div data-role="page" id="projects" data-theme="d">
+
 			<div data-role="header" data-position="inline" data-theme="d">
 				<a href="#home" data-role="button" data-direction="reverse" data-transition="slidefade" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
 				<h1>Projects</h1>
 			</div>
+
 			<div data-role="content" data-theme="d">
 				<div>
 					<h2>Java Chat Server</h2>
@@ -273,7 +337,7 @@
 					<p>
 						I built this game during the Semester one of my program for the Computer Architecture Course. It Runs on Hackvision Which is a Modified Version of Arduino designed specifically for Games.
 					</p>
-					<a href="https://github.com/Sukh9212/Tic-Tac-Toe-Hackvision" target="_blank"><img src="img/Tictactoe.jpg" alt="image" style=" width: 250px; height: 250px;position: absolute; margin-left: 14px; margin-top: 16px"></a>
+					<a href="http://www.youtube.com/watch?v=LjqEQH7oU7s" target="_blank"><img src="img/Tictactoe.jpg" alt="image" style=" width: 250px; height: 250px;position: absolute; margin-left: 14px; margin-top: 16px"></a>
 				</div>
 				<div id="spacer"></div>
 			</div>
@@ -282,47 +346,50 @@
 			</div>
 		</div><!--End of Projects Page-->
 
-		<!--Services Page-->
+		<!--------------Services Page--------------->
 		<div data-role="page" id="services" data-theme="e">
+
 			<div data-role="header" data-position="inline" data-theme="e">
 				<a href="#home" data-role="button" data-direction="reverse" data-transition="slidefade" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
 				<h1>Services</h1>
 			</div>
+
 			<div data-role="content" data-theme="e">
 				<h2>Potential Coding on these Platforms:</h2>
 				<img class="img-circle" src="img/web.jpg" width="180" height="180" alt="Web image">
 				<div class="services_list">
-				<h2>Web Development</h2>
-				<p>
-					Web is the most alive platform for Developers and Designers. I specialize in Languages such as HTML5, CSS3, PHP, JavaScript, jQuery etc.
-					With some designing abilities I can build basic websites to content managed websites using php with database connectivity as a backhand for the page content.
-					I can build Sites with respnosive design adapting to various viewport sizes and devices which is the essential for any website.
-				</p>
+					<h2>Web Development</h2>
+					<p>
+						Web is the most alive platform for Developers and Designers. I specialize in Languages such as HTML5, CSS3, PHP, JavaScript, jQuery etc.
+						With some designing abilities I can build basic websites to content managed websites using php with database connectivity as a backhand for the page content.
+						I can build Sites with respnosive design adapting to various viewport sizes and devices which is the essential for any website.
+					</p>
 				</div>
-				<hr class="featurette-divider">
+
 				<img class="img-circle" src="img/windows8.jpg" width="180" height="180" alt="Windows 8.1 apps image">
 				<div class="services_list">
-				<h2>App Development(Android, Windows 8,8.1)</h2>
-				<p>
-					Still in the learning phase for developing apps for well Established app market such as android &amp; ios and Developing market such as Windows 8, Windows 8.1, Windows phone 8 etc.
-					I've done some independent study on Android app development. Since it is Java so if given a chance I can also work to develop android apps and similarly with Windows apps
-					I've done independent study on developing apps and I've Used C# as programming language. For Windows app I've also Used HTML5, CSS3 and JavaScript technologies.
-				</p>
+					<h2>App Development(Android, Windows 8,8.1)</h2>
+					<p>
+						Still in the learning phase for developing apps for well Established app market such as android &amp; ios and Developing market such as Windows 8, Windows 8.1, Windows phone 8 etc.
+						I've done some independent study on Android app development. Since it is Java so if given a chance I can also work to develop android apps and similarly with Windows apps
+						I've done independent study on developing apps and I've Used C# as programming language. For Windows app I've also Used HTML5, CSS3 and JavaScript technologies.
+					</p>
 				</div>
-				<hr class="featurette-divider">
+
 				<img class="img-circle" src="img/java.jpg" width="180" height="180" alt="Java image">
 				<div class="services_list">
-				<h2>Software Development</h2>
-				<p>
-					Expertise in the Java Programming language and in learning phase of C# progamming language. With these two Most powerful
-					languages in the pocket, I can build powerful standalone desktop applications. I've build a Java Chat Server using ofcourse
-					java Which uses rich cores of the language and utilizes Swing, Multithreading, RMI and the most importantly Socket Programming.
-				</p>
+					<h2>Software Development</h2>
+					<p>
+						Expertise in the Java Programming language and in learning phase of C# progamming language. With these two Most powerful
+						languages in the pocket, I can build powerful standalone desktop applications. I've build a Java Chat Server using ofcourse
+						java Which uses rich cores of the language and utilizes Swing, Multithreading, RMI and the most importantly Socket Programming.
+					</p>
 				</div>
 			</div>
 			<div data-theme="e" data-role="footer" data-position="fixed">
 				<h3> ©2013 Sukhdeep Singh </h3>
 			</div>
 		</div><!--End of Services Page-->
+
 	</body>
 </html>

@@ -2,39 +2,38 @@
 	width: 237px;
 	height: 60px;
 	position: relative;
+	padding-left: 20px;
 }
 img {
 	position: absolute;
-	
 }
-#navbuttons{
+#navbuttons {
 	padding-top: 30px;
-	text-align:center;
-	padding-bottom:40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
 }
-#projectsButton{
-	width:60%;
+
+#projectsButton {
+	width: 60%;
 	padding-right: 150px;
 }
 #serviceButton {
 	padding-top: 50px;
-	
 }
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:700;
+	font-weight: 700;
 	color: black;
 }
-h2{
-	font-weight:700;
+h2 {
+	font-weight: 700;
 	color: black;
 }
-p{
-	font-weight:500;
+p {
+	font-weight: 500;
 }
 .fotorama {
-	clear: both;
-	data-autoplay="true";
+	clear: both;data-autoplay="true";
 	data-stopautoplayontouch="false";
 	data-width="100%";
 	data-height="50%";
@@ -42,28 +41,28 @@ p{
 	data-maxheight="80%";
 }
 /*keep connected icons*/
-a.connect_icons{	
+a.connect_icons {
 	padding-left: 50px;
 }
-.connect_icons a{
-text-decoration: none;	
+.connect_icons a {
+	text-decoration: none;
 }
-#connect_panel{
+#connect_panel {
 	padding-top: 20px;
 }
-.project_list{
+.project_list {
 	padding-top: 300px;
 }
-.services_list{
+.services_list {
 	padding-top: 180px;
 }
-#spacer{
-	padding-top:300px;
+#spacer {
+	padding-top: 300px;
 }
 .img-circle {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 .featurette-divider {
-  margin: 80px 0; 
+	margin: 80px 0;
 }
