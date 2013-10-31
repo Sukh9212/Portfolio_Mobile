@@ -16,7 +16,7 @@
 .ui-bar-a {
 	border: 1px solid #a3cd39 /*{a-bar-border}*/;
 	background: #a3cd39 /*{a-bar-background-color}*/;
-	color: #0d0d0c /*{a-bar-color}*/;
+	color: #090606 /*{a-bar-color}*/;
 	font-weight: bold;
 	text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #444444 /*{a-bar-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #759329 /*{a-bar-background-start}*/), to( #d0FF48 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
@@ -27,7 +27,7 @@
 	background-image:         linear-gradient( #759329 /*{a-bar-background-start}*/, #d0FF48 /*{a-bar-background-end}*/);
 }
 .ui-bar-a .ui-link-inherit {
-	color: #0d0d0c /*{a-bar-color}*/;
+	color: #090606 /*{a-bar-color}*/;
 }
 .ui-bar-a a.ui-link {
 	color: #7cc4e7 /*{a-bar-link-color}*/;
@@ -47,7 +47,7 @@
 .ui-bar-a select,
 .ui-bar-a textarea,
 .ui-bar-a button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-a,
 .ui-overlay-a {
@@ -71,7 +71,7 @@
 .ui-body-a select,
 .ui-body-a textarea,
 .ui-body-a button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-a .ui-link-inherit {
 	color: #000000 /*{a-body-color}*/;
@@ -145,7 +145,7 @@
 .ui-btn-up-a,
 .ui-btn-hover-a,
 .ui-btn-down-a {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 	text-decoration: none;
 }
 /* B
@@ -184,7 +184,7 @@
 .ui-bar-b select,
 .ui-bar-b textarea,
 .ui-bar-b button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-b,
 .ui-overlay-b {
@@ -208,7 +208,7 @@
 .ui-body-b select,
 .ui-body-b textarea,
 .ui-body-b button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-b .ui-link-inherit {
 	color: #333333 /*{b-body-color}*/;
@@ -282,7 +282,7 @@
 .ui-btn-up-b,
 .ui-btn-hover-b,
 .ui-btn-down-b {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 	text-decoration: none;
 }
 
@@ -292,7 +292,7 @@
 .ui-bar-c {
 	border: 1px solid #ff530d /*{c-bar-border}*/;
 	background: #ff530d /*{c-bar-background-color}*/;
-	color: #ffffff /*{c-bar-color}*/;
+	color: #090606 /*{c-bar-color}*/;
 	font-weight: bold;
 	text-shadow: 0 /*{c-bar-shadow-x}*/ 1px /*{c-bar-shadow-y}*/ 0 /*{c-bar-shadow-radius}*/ #444444 /*{c-bar-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #b53a09 /*{c-bar-background-start}*/), to( #FF6b10 /*{c-bar-background-end}*/)); /* Saf4+, Chrome */
@@ -303,7 +303,7 @@
 	background-image:         linear-gradient( #b53a09 /*{c-bar-background-start}*/, #FF6b10 /*{c-bar-background-end}*/);
 }
 .ui-bar-c .ui-link-inherit {
-	color: #ffffff /*{c-bar-color}*/;
+	color: #090606 /*{c-bar-color}*/;
 }
 .ui-bar-c a.ui-link {
 	color: #7cc4e7 /*{c-bar-link-color}*/;
@@ -323,7 +323,7 @@
 .ui-bar-c select,
 .ui-bar-c textarea,
 .ui-bar-c button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-c,
 .ui-overlay-c {
@@ -347,7 +347,7 @@
 .ui-body-c select,
 .ui-body-c textarea,
 .ui-body-c button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-c .ui-link-inherit {
 	color: #333333 /*{c-body-color}*/;
@@ -421,7 +421,7 @@
 .ui-btn-up-c,
 .ui-btn-hover-c,
 .ui-btn-down-c {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 	text-decoration: none;
 }
 
@@ -431,9 +431,9 @@
 .ui-bar-d {
 	border: 1px solid #fbac1d /*{d-bar-border}*/;
 	background: #fbac1d /*{d-bar-background-color}*/;
-	color: #000000 /*{d-bar-color}*/;
+	color: #090606 /*{d-bar-color}*/;
 	font-weight: bold;
-	text-shadow: 0 /*{d-bar-shadow-x}*/ 1px /*{d-bar-shadow-y}*/ 0 /*{d-bar-shadow-radius}*/ #eeeeee /*{d-bar-shadow-color}*/;
+	text-shadow: 0 /*{d-bar-shadow-x}*/ 0px /*{d-bar-shadow-y}*/ 0 /*{d-bar-shadow-radius}*/ #444444 /*{d-bar-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #b47b14 /*{d-bar-background-start}*/), to( #FFdc25 /*{d-bar-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #b47b14 /*{d-bar-background-start}*/, #FFdc25 /*{d-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
 	background-image:    -moz-linear-gradient( #b47b14 /*{d-bar-background-start}*/, #FFdc25 /*{d-bar-background-end}*/); /* FF3.6 */
@@ -442,7 +442,7 @@
 	background-image:         linear-gradient( #b47b14 /*{d-bar-background-start}*/, #FFdc25 /*{d-bar-background-end}*/);
 }
 .ui-bar-d .ui-link-inherit {
-	color: #000000 /*{d-bar-color}*/;
+	color: #090606 /*{d-bar-color}*/;
 }
 .ui-bar-d a.ui-link {
 	color: #7cc4e7 /*{d-bar-link-color}*/;
@@ -462,7 +462,7 @@
 .ui-bar-d select,
 .ui-bar-d textarea,
 .ui-bar-d button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-d,
 .ui-overlay-d {
@@ -486,7 +486,7 @@
 .ui-body-d select,
 .ui-body-d textarea,
 .ui-body-d button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-d .ui-link-inherit {
 	color: #000000 /*{d-body-color}*/;
@@ -560,7 +560,7 @@
 .ui-btn-up-d,
 .ui-btn-hover-d,
 .ui-btn-down-d {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 	text-decoration: none;
 }
 
@@ -570,7 +570,7 @@
 .ui-bar-e {
 	border: 1px solid #d6483a /*{e-bar-border}*/;
 	background: #d6483a /*{e-bar-background-color}*/;
-	color: #ffffff /*{e-bar-color}*/;
+	color: #090606 /*{e-bar-color}*/;
 	font-weight: bold;
 	text-shadow: 0 /*{e-bar-shadow-x}*/ 1px /*{e-bar-shadow-y}*/ 0 /*{e-bar-shadow-radius}*/ #444444 /*{e-bar-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #973329 /*{e-bar-background-start}*/), to( #FF5c4a /*{e-bar-background-end}*/)); /* Saf4+, Chrome */
@@ -581,7 +581,7 @@
 	background-image:         linear-gradient( #973329 /*{e-bar-background-start}*/, #FF5c4a /*{e-bar-background-end}*/);
 }
 .ui-bar-e .ui-link-inherit {
-	color: #ffffff /*{e-bar-color}*/;
+	color: #090606 /*{e-bar-color}*/;
 }
 .ui-bar-e a.ui-link {
 	color: #7cc4e7 /*{e-bar-link-color}*/;
@@ -601,7 +601,7 @@
 .ui-bar-e select,
 .ui-bar-e textarea,
 .ui-bar-e button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-e,
 .ui-overlay-e {
@@ -625,7 +625,7 @@
 .ui-body-e select,
 .ui-body-e textarea,
 .ui-body-e button {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-body-e .ui-link-inherit {
 	color: #333333 /*{e-body-color}*/;
@@ -699,7 +699,7 @@
 .ui-btn-up-e,
 .ui-btn-hover-e,
 .ui-btn-down-e {
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 	text-decoration: none;
 }
 
@@ -726,7 +726,7 @@ a.ui-link-inherit {
 	background-image:     -ms-linear-gradient( #161410 /*{global-active-background-start}*/, #12110d /*{global-active-background-end}*/); /* IE10 */
 	background-image:      -o-linear-gradient( #161410 /*{global-active-background-start}*/, #12110d /*{global-active-background-end}*/); /* Opera 11.10+ */
 	background-image:         linear-gradient( #161410 /*{global-active-background-start}*/, #12110d /*{global-active-background-end}*/);
-	  font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
+	 font-family: Source Sans Pro, sans-serif /*{global-font-family}*/;
 }
 .ui-btn-active:visited,
 .ui-btn-active:hover,
