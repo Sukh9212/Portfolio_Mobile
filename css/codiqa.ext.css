@@ -1,0 +1,50 @@
+#logo {
+	width: 237px;
+	height: 68px;
+	position: relative;
+}
+img {
+	position: absolute;
+}
+#navbuttons{
+	padding-top: 25px;
+	padding-left: 15px;
+	
+}
+#projectsButton{
+	padding-right: 150px;
+}
+#serviceButton {
+	position: relative;
+	padding-top: 50px;
+}
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:lighter;
+	color: #000000;
+}
+h2{
+	font-weight:lighter;
+}
+p{
+	font-weight:500;
+}
+.fotorama {
+	clear: both;
+	data-autoplay="true";
+	data-stopautoplayontouch="false";
+	data-width="100%";
+	data-height="50%";
+	data-maxwidth="800";
+	data-maxheight="80%";
+}
+/*keep connected icons*/
+a.connect_icons{	
+	padding-left: 50px;
+}
+.connect_icons a{
+text-decoration: none;	
+}
+#connect_panel{
+	padding-top: 20px;
+}

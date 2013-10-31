@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>My Portfolio</title>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+		<!-- Extra Codiqa features -->
+		<link rel="stylesheet" href="css/codiqa.ext.css">
+		<link rel="stylesheet" href="themes/myPortfolio.css" />
+
+		<!-- fotorama.css & fotorama.js. -->
+		<link  href="http://fotorama.s3.amazonaws.com/4.4.6/fotorama.css" rel="stylesheet">
+
+		<!-- jQuery and jQuery Mobile -->
+		<script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+		<script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script src="http://fotorama.s3.amazonaws.com/4.4.6/fotorama.js"></script>
+		<!-- Extra Codiqa features -->
+		<script src="js/codiqa.ext.js"></script>
+
+	</head>
+	<body>
+		<!-- Home Page-->
+		<div data-role="page" id="home" data-theme="b">
+			<div data-role="header" data-position="inline" data-theme="b">
+				<h1>Home</h1>
+			</div>
+			<div data-role="content" data-theme="b">
+				<div id="logo">
+					<img src="img/logo.png" alt="image">
+				</div>
+				<div data-role="navbar" data-iconpos="top" data-theme="b" >
+					<ul>
+						<li>
+							<a href="#home" data-transition="slidefade" data-theme="b" data-icon="home">Home</a>
+						</li>
+						<li>
+							<a href="#about" data-transition="slidefade" data-theme="b" data-icon="info">About Me</a>
+						</li>
+						<li>
+							<a href="#contact" data-transition="slidefade" data-theme="b" data-icon="bars">Contact Me</a>
+						</li>
+					</ul>
+				</div>
+				<div id="navbuttons">
+					<a id="projectsButton" href="#projects" data-position="inline" data-transition="slidefade"><img src="img/projects.png" alt="image"></a>
+					<a id="serviceButton" href="#services" data-position="inline" data-transition="slidefade"><img src="img/services.png" alt="image"></a>
+				</div>
+				<h1>Featured Work</h1>
+				<div class="fotorama">
+					<img src="img/Tictactoe.jpg">
+					<img src="img/abee.jpg">
+					<img src="img/jchat.jpg">
+					<img src="img/smartphones.jpg">
+				</div>
+			</div>
+			<a href="http://webdesign4.georgianc.on.ca/~200245935/advweb/portfolio/index.php" target="_blank" data-role="button" data-position="inline" data-transition="slidefade">Full Site</a>
+			<div data-theme="b" data-role="footer" data-position="fixed">
+				<h3> ©2013 Sukhdeep Singh </h3>
+			</div>
+			
+		</div><!--End of Home Page-->
+
+		<!--About Me Page-->
+		<div data-role="page" id="about" data-theme="a">
+			<div data-role="header" data-position="inline" data-theme="a">
+				<a href="#home" data-role="button" data-direction="reverse" data-transition="slidefade" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
+				<h1>About Me</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+
+				<div style="width: 250px; height: 250px; position: relative;">
+					<img src="img/1.jpg" alt="image" style=" width: 250px; height: 250px;position: absolute; margin-left: 14px; margin-top: 16px">
+				</div>
+				<h1>Creating thoughtful user experinces</h1>
+				<h2>Writiing efficient code</h2>
+				<p>
+					Computer Programming as a profession is what I enjoy doing the most. It's really fun working with System oriented languages
+					such as Java,C#,C,C++ and the Web oriented Languages such as HTML5,CSS3,PHP,JavaScript. While I find the Visual element
+					of the Web very attractive, visually Stunning and engaging, the System Programming enables me to create powerful
+					System and Mobile Apps.
+				</p>				
+
+				<ul data-role="listview">
+					<li>
+						<a href="#profHighlights" data-rel="dialog"><h2>Professional Highlights</h2></a>
+					</li>
+
+					<li>
+						<a href="#education" data-rel="dialog"><h2>Education</h2></a>
+					</li>
+
+					<li>
+						<a href="#background" data-rel="dialog"><h2>Background</h2></a>
+					</li>
+				</ul>
+
+			</div>
+			<div data-theme="a" data-role="footer" data-position="fixed">
+				<h3> ©2013 Sukhdeep Singh </h3>
+			</div>
+		</div><!--End of About Me Page-->
+		
+		<!--Professional Dialog page-->
+		<div data-role="page" id="profHighlights">
+			<div data-role="header" data-position="inline">
+				<h1>Professional Highlights</h1>
+			</div>
+			<ul>
+				<li>
+					<p>
+						Sound Knowledge of Java Programming Language and Web Programming Languages like HTML5, CSS3, PHP and also familiar with JavaScript
+					</p>
+				</li>
+				<li>
+					<p>
+						Expertise working with Windows XP/Vista/7/8/8.1, and able to fix various Application and Operating System level Errors
+					</p>
+				</li>
+				<li>
+					<p>
+						Good Knowledge of Database and able to perform SQL queries
+					</p>
+				</li>
+				<li>
+					<p>
+						Familiar with Microsoft .NET Framework Languages Like C# and VB.NET
+					</p>
+				</li>
+				<li>
+					<p>
+						Good Knowledge of Programming Languages like C,C++ and C on Arduino
+					</p>
+				</li>
+				<li>
+					<p>
+						Familiar with Windows 8, 8.1 App Developments
+					</p>
+				</li>
+				<li>
+					<p>
+						Good Interpersonal and Communication Skills
+					</p>
+				</li>
+				<li>
+					<p>
+						Recognized as a hardworking, co-operative, flexible to work independently and with the team; Always eager to learn new skills
+					</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--Education Dialog page-->
+		<div data-role="page" id="education" >
+			<div data-role="header" data-position="inline">
+				<h2>Education</h2>
+			</div>
+			<ul>
+
+				<li>
+					<p>
+						<strong>Computer Programmer(Co-op) Diploma</strong>
+					</p>
+					<p class="ui-li-aside">
+						Jan. 2013 - Dec. 2014
+					</p>
+					<p>
+						Georgian College, Barrie, ON
+					</p>
+				</li>
+				<li>
+					<p>
+						<strong>Worksmart Campus Certificate</strong>
+					</p>
+					<p class="ui-li-aside">
+						May 2013
+					</p>
+					<p>
+						Georgian College, Barrie, ON
+					</p>
+				</li>
+				<li>
+					<p>
+						<strong> Bachelor of Science in Information Technology</strong>
+					</p>
+					<p class="ui-li-aside">
+						June 2009 – May 2012
+					</p>
+					<p>
+						Lyallpur Khalsa College Jalandhar, Punjab, India
+					</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--Background dialog page-->
+		<div data-role="page" id="background" >
+			<div data-role="header" data-position="inline">
+				<h2>Background</h2>
+			</div>
+			<ul>
+				<li>
+					<p>
+						Born and Raised in Small town Jalandhar,Punjab,India; I moved to Canada in December 2012 for Higher Studies.
+						Enrolled in Computer Programmer diploma, since then I've learnt great programming skills and practices.
+						I've worked on a Contract work as well for developing a web site. I really like Java, C#, HTML5, CSS3 and PHP programming languages.
+					</p>
+				</li>
+			</ul>
+		</div>
+
+		<!--Contact Me Page-->
+		<div data-role="page" id="contact" data-theme="c">
+			<div data-role="header" data-position="inline" data-theme="c">
+				<a href="#home" data-role="button" data-direction="reverse" data-transition="slidefade" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
+				<h1>Contact Me</h1>
+			</div>
+			<div data-role="content" data-theme="c">
+				<h3>
+					<em>Phone:</em> +1 705-770-5820
+				</h3>
+				<h3>
+					<em>Email:</em><a href="mailto:sukhdeepsaini12@gmail.com"> sukhdeepsaini12@gmail.com</a>
+				</h3>
+				<h3>
+					<em>Address:</em> 533,Grove St,East Barrie,ON,Canada.
+				</h3>
+
+				<!-- Keep Connected Panel-->
+				<div id="connect_panel">
+					<h3>Keep Connected...</h3>
+					<a href="https://www.facebook.com/Sukh9212" target="_blank"><img src="icons/facebook.png"></a>
+					<a class="connect_icons" href="https://twitter.com/Sukh9212" target="_blank"><img src="icons/twitter.png"></a>
+					<a class="connect_icons" href="http://ca.linkedin.com/pub/sukhdeep-singh/74/309/574/" target="_blank"><img src="icons/linkedin.png"></a>
+					<a class="connect_icons" href="http://www.youtube.com/channel/UCVamaOWXDn0HdEZCJj5595Q" target="_blank"><img src="icons/youtube.png"></a>
+					<a class="connect_icons" href="https://github.com/Sukh9212" target="_blank"><img src="icons/github.png"></a>
+				</div>
+			</div>
+			<div data-theme="c" data-role="footer" data-position="fixed">
+				<h3>©2013 Sukhdeep Singh</h3>
+			</div>
+		</div><!--End of Contact Me Page-->
+
+		<!--Projects Page-->
+		<div data-role="page" id="projects" data-theme="d">
+			<div data-role="header" data-position="inline" data-theme="d">
+				<a href="#home" data-role="button" data-direction="reverse" data-transition="slidefade" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
+				<h1>Projects</h1>
+			</div>
+			<div data-role="content" data-theme="d">
+
+			</div>
+			<div data-theme="d" data-role="footer" data-position="fixed">
+				<h3> ©2013 Sukhdeep Singh </h3>
+			</div>
+		</div><!--End of Projects Page-->
+
+		<!--Services Page-->
+		<div data-role="page" id="services" data-theme="e">
+			<div data-role="header" data-position="inline" data-theme="e">
+				<a href="#home" data-role="button" data-direction="reverse" data-transition="slidefade" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
+				<h1>Services</h1>
+			</div>
+			<div data-role="content" data-theme="e">
+
+			</div>
+			<div data-theme="e" data-role="footer" data-position="fixed">
+				<h3> ©2013 Sukhdeep Singh </h3>
+			</div>
+		</div><!--End of Services Page-->
+	</body>
+</html>
