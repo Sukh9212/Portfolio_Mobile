@@ -2,7 +2,7 @@
 	width: 237px;
 	height: 60px;
 	position: relative;
-	padding-left: 20px;
+	padding-left: 50px;
 }
 img {
 	position: absolute;
@@ -22,15 +22,15 @@ img {
 }
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
+	font-weight: lighter ;
 	color: black;
 }
 h2 {
-	font-weight: 700;
+	font-weight: lighter;
 	color: black;
 }
 p {
-	font-weight: 500;
+	font-weight: lighter;
 }
 .fotorama {
 	clear: both;data-autoplay="true";

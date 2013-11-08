@@ -58,8 +58,8 @@ mobile device, It automatically redirects to this mobile specific site.
 			<!-------------Content of the page-------------------->
 			<div data-role="content" data-theme="b">
 				<!----Page Logo----->
-				<div id="logo" data-position="inline">
-					<img src="img/logo.png" alt="image" style = " width=237px; height=60px;">
+				<div id="logo" style= "width: 100%; text-align: center;">
+					<img src="img/logo.png" alt="image" style = " display: block; margin-left: auto; margin-right: auto; width=237px; height=60px;">
 				</div>
 				<!---------------Nav Bar------------------>
 				<div data-role="navbar" data-iconpos="top" data-theme="b" >
@@ -84,33 +84,33 @@ mobile device, It automatically redirects to this mobile specific site.
 
 				<!-------------Featured Work Slider----------------->
 				<h1>Featured Work</h1>
-				<div class="fotorama">
-					<img src="img/Tictactoe.jpg">
-					<img src="img/abee.jpg">
-					<img src="img/jchat.jpg">
+				<div class="fotorama">					
+					<img src="img/abee.jpg">					
 					<img src="img/smartphones.jpg">
+					<img src="img/jchat.jpg">
+					<img src="img/Tictactoe.jpg">
 				</div>
 				
 				<!------Full Site Button-------->
 			<a href="http://webdesign4.georgianc.on.ca/~200245935/advweb/portfolio/index.php" target="_blank" data-role="button" data-position="inline" data-transition="slidefade">Full Site</a>
 			</div>
-			<div data-role="panel" data-position-fixed="true" data-theme="f" id="nav-panel">
-				<ul data-role="listview" data-theme="f" class="nav-search">
+			<div data-role="panel" data-position-fixed="true" data-theme="g" id="nav-panel">
+				<ul data-role="listview" data-theme="g" class="nav-search">
 
 					<li>
-						<a href="#projects" data-transition="slidefade">My Projects</a>
+						<a href="#projects" data-theme="g" data-transition="slidefade">My Projects</a>
 					</li>
 					<li>
-						<a href="#services" data-transition="slidefade">Services</a>
+						<a href="#services" data-theme="g" data-transition="slidefade">Services</a>
 					</li>
 					<li>
-						<a href="#aboutMe" data-transition="slidefade">About Me</a>
+						<a href="#aboutMe" data-theme="g" data-transition="slidefade">About Me</a>
 					</li>
 					<li>
-						<a href="#contact" data-transition="slidefade">Contact Me</a>
+						<a href="#contact" data-theme="g" data-transition="slidefade">Contact Me</a>
 					</li>
 					<li>
-						<a href="http://webdesign4.georgianc.on.ca/~200245935/advweb/portfolio/index.php" target="_blank">Full Site</a>
+						<a href="http://webdesign4.georgianc.on.ca/~200245935/advweb/portfolio/index.php" data-theme="g" target="_blank">Full Site</a>
 					</li>
 
 				</ul>
@@ -167,7 +167,7 @@ mobile device, It automatically redirects to this mobile specific site.
 		</div><!--End of About Me Page-->
 
 		<!--Professional Dialog page-->
-		<div data-role="page" id="profHighlights" data-close-btn="none">
+		<div data-role="page" id="profHighlights">
 			<div data-role="header" >
 				<h1>Professional Highlights</h1>
 			</div>
@@ -213,7 +213,7 @@ mobile device, It automatically redirects to this mobile specific site.
 					</p>
 				</li>
 			</ul>
-			<a href="#home" data-role="button" data-rel="back"  data-inline="true">Close</a>
+			
 		</div><!--End of Professional Highlights dialog page-->
 
 		<!--Education Dialog page-->
