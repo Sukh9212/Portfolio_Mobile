@@ -60,7 +60,7 @@ contacts and the registered users
 				//1 Write our sql command to get the list of Contacts
 				$sql = "SELECT * FROM business_contacts order by name;";
 				//2. Connect to the databse
-				$conn = mysqli_connect('webdesign4', 'db200245935', '37949', 'db200245935') or die(mysqli_error());
+				$conn = mysqli_connect('webdesign4', 'dbxxxxxxxxx', 'xxxxx', 'dbxxxxxxxxx') or die(mysqli_error());
 				//3. excecute our query & store the results in a variable
 				$result = mysqli_query($conn, $sql);
 				//4. crate our table and header row with html tags
