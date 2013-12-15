@@ -20,7 +20,7 @@ echo'<div class="container marketing">';
             }
 
             else{
-                $conn = mysqli_connect('webdesign4', 'db200245935', '37949', 'db200245935') or die('Error connecting to MySQL server.');
+                $conn = mysqli_connect('webdesign4', 'dbxxxxxxxxx', 'xxxxx', 'dbxxxxxxxxx') or die('Error connecting to MySQL server.');
                 //grab the selected is from the url
                 $id = $_GET['id'];
                 //sql statement to select the user to edit based on the id passed in the url
