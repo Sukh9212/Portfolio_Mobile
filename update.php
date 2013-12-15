@@ -22,7 +22,7 @@ File Description: This page takes the input from the edit.php page and makes the
             }
             else {
                 //use the mysqli_real_escape_string function to encapsulate the inputs. this function is neccesary because if there is ' in the input, you will get update error.
-                $conn = mysqli_connect('webdesign4', 'db200245935', '37949', 'db200245935') or die('Error connecting to MySQL server.');
+                $conn = mysqli_connect('webdesign4', 'dbxxxxxxxxx', 'xxxxx', 'dbxxxxxxxxx') or die('Error connecting to MySQL server.');
                 $name = mysqli_real_escape_string($conn,$_POST['name']);
                 $phone = mysqli_real_escape_string($conn,$_POST['phone']);
 				$address = mysqli_real_escape_string($conn,$_POST['address']);
