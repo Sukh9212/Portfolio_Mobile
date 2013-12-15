@@ -26,7 +26,7 @@ $password = sha1($_POST['password']);
 //check that the email entered is a proper valid email address
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
-$conn = mysqli_connect('webdesign4', 'db200245935', '37949', 'db200245935') or die('Error connecting to MySQL server');
+$conn = mysqli_connect('webdesign4', 'dbxxxxxxxxx', 'xxxxx', 'dbxxxxxxxxx') or die('Error connecting to MySQL server');
 
 $sql = "SELECT id FROM admin WHERE email = '$email' AND password = '$password'";
 $result = mysqli_query($conn, $sql) or die('Error querying database.');
