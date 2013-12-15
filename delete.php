@@ -24,7 +24,7 @@ File Description: This page deletes the selected contacts from the database
                     header('Location:login.php');
             }
 
-            $conn = mysqli_connect('webdesign4','db200245935','37949','db200245935') or die('Connect Error');
+            $conn = mysqli_connect('webdesign4','dbxxxxxxxxx','xxxxx','dbxxxxxxxxx') or die('Connect Error');
             //grab the id from url
             $id = $_GET['id'];
             //write the sql
